@@ -77,7 +77,34 @@ footer span {
 footer span a {
     color: #fff;
 }
+.logo-title{
+display: inline-flex;
+justify-content: center;
+align-items: center;
 
+}
+.logo-title .logo{
+    width: 150px;
+    object-fit: scale-down;
+}
+.logo-title h2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: 900;
+    background: linear-gradient(90deg,#0d6593,#56c3da);
+    color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.7rem;
+    margin-left: 10px;
+}
+.logo-title h2 span{
+letter-spacing: 5.2px;
+font-size: 1rem;
+font-weight: 800;
+}
 .footer-stickey-mobile {
     position: fixed;
     bottom: 0;
